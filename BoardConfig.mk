@@ -30,5 +30,8 @@ ODM_MANIFEST_LEMON_FILES := hardware/st/nfc/aidl/nfc-service-default.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lime
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lime
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := lime,lemon,pomelo
+
 # Inherit the proprietary files
 include vendor/xiaomi/lime/BoardConfigVendor.mk
