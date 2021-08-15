@@ -360,7 +360,7 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/charger_fstab.qti
 
 # Consumer IR
-vendor/lib64/hw/consumerir.default.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.bengal.so
 
 # Display (calibration)
 vendor/bin/qdcmss
