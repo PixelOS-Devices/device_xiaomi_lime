@@ -29,6 +29,10 @@ include $(LOCAL_PATH)/audio/audio.mk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor:64
+
 # NFC
 TARGET_NFC_SKU := lemon
 
