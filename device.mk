@@ -33,6 +33,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1.vendor:64
 
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mtdservice@1.2.vendor:64
+
 # NFC
 TARGET_NFC_SKU := lemon
 
