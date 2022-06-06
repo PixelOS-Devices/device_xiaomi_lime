@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+prebuilt_etc {
+    name: "init.stnfc.rc",
+    src: "init.stnfc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}

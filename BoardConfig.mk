@@ -18,5 +18,12 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lime-perf_defconfig
 
+# NFC
+ODM_MANIFEST_SKUS += lemon
+ODM_MANIFEST_LEMON_FILES := $(DEVICE_PATH)/manifest_lemon.xml
+
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/lime/BoardConfigVendor.mk
