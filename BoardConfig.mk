@@ -19,9 +19,6 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lime
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lime
 
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/lime-perf_defconfig
-
 # NFC
 ODM_MANIFEST_SKUS += lemon
 ODM_MANIFEST_LEMON_FILES := $(DEVICE_PATH)/manifest_lemon.xml
