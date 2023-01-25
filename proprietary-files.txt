@@ -260,3 +260,17 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
+
+# NFC
+vendor/bin/STFlashTool
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/st21nfc_conf.txt
+vendor/lib/libsn100u_fw.so
+vendor/lib64/libst_sr_models.so
+vendor/lib64/libstfactory-vendor.so
+vendor/lib64/nfc_nci.st21nfc.st.so
+
+# NFC Firmware
+vendor/firmware/st21nfc_fw.bin
+vendor/firmware/st21nfc_fw7.bin
