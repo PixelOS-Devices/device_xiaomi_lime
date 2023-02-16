@@ -71,6 +71,9 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    ApertureLime \
+    ApertureLemon \
+    AperturePomelo \
     FrameworksResLime \
     SettingsProviderResLemon \
     SettingsProviderResLime \
