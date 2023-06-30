@@ -28,3 +28,6 @@ PRODUCT_PACKAGES += \
     WifiResLemon \
     WifiResLime \
     WifiResPomelo
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/lime/lime-vendor.mk)
