@@ -11,3 +11,11 @@ cc_library_static {
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }
+
+// Init scripts
+prebuilt_etc {
+    name: "init.device.rc",
+    src: "init.device.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
