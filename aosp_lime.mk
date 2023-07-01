@@ -25,3 +25,5 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 9T
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+BUILD_FINGERPRINT := Redmi/lime_global/lime:12/SKQ1.211202.001/V13.0.3.0.SJQMIXM:user/release-keys
