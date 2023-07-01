@@ -17,3 +17,14 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResLime \
+    SettingsProviderResLemon \
+    SettingsProviderResLime \
+    SettingsProviderResPomelo \
+    SystemUIResLime \
+    WifiResLemon \
+    WifiResLime \
+    WifiResPomelo

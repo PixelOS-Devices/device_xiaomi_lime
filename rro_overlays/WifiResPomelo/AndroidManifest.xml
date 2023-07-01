@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.wifi.resources.pomelo"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay
+        android:targetPackage="com.android.wifi.resources"
+        android:targetName="WifiCustomization"
+        android:requiredSystemPropertyName="ro.product.model"
+        android:requiredSystemPropertyValue="M2010J19SL"
+        android:isStatic="true"
+        android:priority="850"/>
+</manifest>

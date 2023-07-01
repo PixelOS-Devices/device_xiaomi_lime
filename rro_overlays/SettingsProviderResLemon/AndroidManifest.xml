@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.providers.settings.lemon"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay
+        android:targetPackage="com.android.providers.settings"
+        android:isStatic="true"
+        android:requiredSystemPropertyName="ro.product.model"
+        android:requiredSystemPropertyValue="M2010J19SY"
+        android:priority="800"/>
+</manifest>
