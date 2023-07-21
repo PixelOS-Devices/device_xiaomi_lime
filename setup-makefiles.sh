@@ -8,7 +8,7 @@
 set -e
 
 export DEVICE=lime
-export DEVICE_COMMON=minerva
+export DEVICE_COMMON=sm6115-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
